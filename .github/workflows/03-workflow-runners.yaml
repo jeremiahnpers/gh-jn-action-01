@@ -12,7 +12,7 @@ jobs:
                 echo "This job is running on an Ubuntu runner - created by JN!"
                 echo "Runner OS: [ $RUNNER_OS ] - created by JN!"
     echo-on-Windows:
-        runs-on: Windows-latest
+        runs-on: windows-latest
         steps:
             - name: Show OS
               run: |
