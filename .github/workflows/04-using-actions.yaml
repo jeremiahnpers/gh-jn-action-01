@@ -7,7 +7,7 @@ jobs:
     defaults:
       run:
         #working-directory: 04-using-actions/react-app
-        working-directory: 04-using-actions/react-app
+        working-directory: react-app
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
